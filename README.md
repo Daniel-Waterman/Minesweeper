@@ -11,23 +11,23 @@ If you wish to try it yourself, download the 'Ready-to-Run' folder and open Mine
 
 **Game start in beginner mode**
 
-![](/Images/EasyScreenshot.png)
+![Beginner Game at start](/Images/EasyScreenshot.png)
 
 **Menu settings**
 
-![](/Images/MenuScreenshot.png)
+![Menu](/Images/MenuScreenshot.png)
 
 **During intermediate game**
 
-![](/Images/InGameScreenshot.png)
+![Game in progress](/Images/InGameScreenshot.png)
 
 **Game won with best times dialog**
 
-![](/Images/WinScreenshot.png)
+![Game won with best times dialog](/Images/WinScreenshot.png)
 
 **Game lost, all unflagged mines revealed**
 
-![](/Images/DeathScreenshot.png)
+![Game lost, all mines revealed](/Images/DeathScreenshot.png)
 
 
 ### Details
