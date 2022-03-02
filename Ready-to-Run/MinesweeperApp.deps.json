@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MinesweeperApp/1.0.0": {
+        "dependencies": {
+          "MinesweeperLogic": "1.0.0"
+        },
+        "runtime": {
+          "MinesweeperApp.dll": {}
+        }
+      },
+      "MinesweeperLogic/1.0.0": {
+        "runtime": {
+          "MinesweeperLogic.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MinesweeperApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MinesweeperLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

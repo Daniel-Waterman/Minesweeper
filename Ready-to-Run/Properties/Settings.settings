@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MinesweeperApp.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Difficulty" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Marks" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Sounds" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="EasyStart" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="BTBeginnerTime" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">999</Value>
+    </Setting>
+    <Setting Name="BTInterTime" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">999</Value>
+    </Setting>
+    <Setting Name="BTExpertTime" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">999</Value>
+    </Setting>
+    <Setting Name="BTBeginnerName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Anonymous</Value>
+    </Setting>
+    <Setting Name="BTInterName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Anonymous</Value>
+    </Setting>
+    <Setting Name="BTExpertName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Anonymous</Value>
+    </Setting>
+    <Setting Name="CustomHeight" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">9</Value>
+    </Setting>
+    <Setting Name="CustomWidth" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">9</Value>
+    </Setting>
+    <Setting Name="CustomMines" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
