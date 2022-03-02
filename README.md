@@ -7,7 +7,7 @@ using C#/.NET 6 and WPF to create the user interface.
 #### Try it yourself
 If you wish to try it yourself, download the 'Ready-to-Run' folder and open MinesweeperApp.exe.
 
-### Some In-Action Screenshots
+### In-Action Screenshots
 
 **Game start in beginner mode**
 
