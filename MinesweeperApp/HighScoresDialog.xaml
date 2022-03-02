@@ -1,0 +1,40 @@
+﻿<Window x:Class="MinesweeperApp.HighScoresDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MinesweeperApp"
+        mc:Ignorable="d"
+        Title="Fastest Mine Sweepers" SizeToContent="WidthAndHeight" ResizeMode="NoResize" WindowStartupLocation="CenterOwner" FontSize="14">
+    <Grid Margin="15,20,15,20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="100"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="Beginner:" Margin="3"/>
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="Intermediate:" Margin="3"/>
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="Expert:" Margin="3"/>
+
+        <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding BeginnerTime, StringFormat={}{0} seconds}" Margin="3" HorizontalAlignment="Center"/>
+        <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding InterTime, StringFormat={}{0} seconds}" Margin="3" HorizontalAlignment="Center"/>
+        <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding ExpertTime, StringFormat={}{0} seconds}" Margin="3" HorizontalAlignment="Center"/>
+
+        <TextBlock Grid.Row="0" Grid.Column="2" Text="{Binding BeginnerName}" Margin="3" HorizontalAlignment="Center"/>
+        <TextBlock Grid.Row="1" Grid.Column="2" Text="{Binding InterName}" Margin="3" HorizontalAlignment="Center"/>
+        <TextBlock Grid.Row="2" Grid.Column="2" Text="{Binding ExpertName}" Margin="3" HorizontalAlignment="Center"/>
+
+
+        <Button Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Width="100" Content="Reset Scores" Margin="0,15,0,0" Click="ResetClick"/>
+        <Button Grid.Row="3" Grid.Column="2" Content="OK" Width="50" Margin="0,15,0,0" IsDefault="True" IsCancel="True" />
+
+
+    </Grid>
+</Window>

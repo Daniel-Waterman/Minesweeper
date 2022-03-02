@@ -1,0 +1,28 @@
+﻿<Window x:Class="MinesweeperApp.PlayerNameDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MinesweeperApp"
+        mc:Ignorable="d"
+        Title="New Best Time" ResizeMode="NoResize" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterOwner">
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="You have the fastest time"/>
+        <TextBlock Grid.Row="1" Text="{Binding PlayerLevel, StringFormat={}for {0} level.}"/>
+        <TextBlock Grid.Row="2" Text="Please enter your name." HorizontalAlignment="Center"/>
+
+        <TextBox Grid.Row="3" Text="{Binding PlayerName}" HorizontalAlignment="Center" Width="120" Margin="0,30,0,15"/>
+
+        <Button Grid.Row="4" Content="OK" Width="50" Height="22" HorizontalAlignment="Center" Click="Button_Click"/>
+
+    </Grid>
+</Window>
